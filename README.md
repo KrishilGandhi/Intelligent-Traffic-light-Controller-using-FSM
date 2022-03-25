@@ -1,7 +1,7 @@
 # Intelligent-Traffic-light-Controller-using-FSM
 A Verilog HDL Code for an Intelligent Traffic Light Controller ( Using Moore State Machines)
 
-Here is a code for an Intelligent Traffic Light Controller in Verilog HDL which is made for a crossroads with a high traffic Highway road and a low traffic Farm road which has a sensor which detects if there are any vehicles on the Farm road.There will be green light on the Farm Road only when there are vehicles on the Road in order to give the priority to the highway vehicles
+Here is a code for an Intelligent Traffic Light Controller in Verilog HDL which is made for a crossroads with a high traffic Highway road and a low traffic Farm road which has a sensor which detects if there are any vehicles on the Farm road.There will be green light on the Farm Road only when there are vehicles on the Road in order to give the priority to the highway vehicles.
 
 The behaviour of the controller is as followed:
 
