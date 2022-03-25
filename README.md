@@ -5,7 +5,7 @@ Here is a code for an Intelligent Traffic Light Controller in Verilog HDL which 
 
 The behaviour of the controller is as followed:
 
-The highway light shall remain green as long as the sensor signal is LOW but must be green for at least 30 seconds at a time.
+The highway light shall remain green as long as the sensor signal is low but must be green for at least 30 seconds at a time.
 
 Once transitioned to green, the farm road light shall remain green for at least 3 seconds.
 
