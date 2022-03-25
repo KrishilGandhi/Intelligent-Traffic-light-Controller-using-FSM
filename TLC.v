@@ -16,14 +16,14 @@ always@(posedge clk or negedge clk or posedge rst)
 if(rst)
 begin
     state<=S0;
-    rst_count<=1'b1;
+    rst_count<=1'b1; //when reset is high count will go to 0 and both the lights become red
 end
 else
 begin
     case(state)
     
     S0:begin
-            if(count==6'd1)
+        if(count==6'd1) //
             begin
                 rst_count<=1'b1;
                 state<=S1;
@@ -135,7 +135,7 @@ end
 
 endmodule
 
-module counter(input clk,input rst_count,output reg [5:0]count);
+module counter(input clk,input rst_count,output reg [5:0]count); //counter to count the time for each state be in it
 always@(posedge clk or posedge rst_count)
 begin
     if(rst_count)
